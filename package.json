@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-hyperspace",
+  "name": "df-productions",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Hyperspace by HTML5 UP",
+  "description": "DF Productions website.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-hyperspace.git"
+    "url": "git+https://github.com/iamdavidfrancis/df.productions.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "David Francis",
+    "email": "iamdavidfrancis@gmail.com"
   },
   "dependencies": {
     "gatsby": "^2.13.3",
@@ -35,14 +35,9 @@
     "prettier": "^1.18.2",
     "rimraf": "^2.6.3"
   },
-  "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-aerial"
-  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-aerial/issues"
+    "url": "https://github.com/iamdavidfrancis/df.productions/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-aerial#readme"
+  "homepage": "https://df.productions"
 }
