@@ -5,7 +5,7 @@ export default function Footer() {
     <footer id="footer">
       <span class="copyright">
         &copy; 2019 - DF Productions. Website under construction, check back
-        soon.
+        soon. <a href="/oss-attribution.txt">Open Source Attribution</a>
       </span>
     </footer>
   );
