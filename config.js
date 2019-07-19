@@ -34,4 +34,6 @@ module.exports = {
       url: 'mailto:info@df.productions',
     },
   ],
+  // Google Analytics
+  googleTrackingId: 'UA-138206112-1',
 };

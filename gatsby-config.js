@@ -21,5 +21,14 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: config.googleTrackingId,
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+      },
+    },
   ],
 };

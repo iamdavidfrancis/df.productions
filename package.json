@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "gatsby": "^2.13.3",
+    "gatsby-plugin-google-analytics": "^2.1.4",
     "gatsby-plugin-manifest": "^2.2.1",
     "gatsby-plugin-offline": "^2.2.1",
     "gatsby-plugin-react-helmet": "^3.1.0",
@@ -23,8 +24,9 @@
   },
   "scripts": {
     "develop": "gatsby develop",
-    "build": "npm run clean && gatsby build",
-    "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
+    "build": "yarn clean && gatsby build",
+    "preDeploy": "yarn clean && gatsby build --prefix-paths",
+    "deploy": "yarn preDeploy && gh-pages -d public",
     "serve": "gatsby serve",
     "clean": "rimraf .cache public",
     "format": "prettier --write '**/*.js'",
